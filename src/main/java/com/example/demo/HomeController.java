@@ -13,4 +13,8 @@ public class HomeController {
     public String anotherPage(){
         return "anotherpage";
     }
+    @RequestMapping("/login")
+    public String login(){
+        return "login";
+    }
 }
